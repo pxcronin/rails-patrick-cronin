@@ -1,8 +1,13 @@
 .intro {
   text-align: center;
-  .avatar-home {
-    display: block;
-    margin: auto;
+  .flex-avatar-and-buttons{
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+    .avatar-home {
+      // display: block;
+      // margin: auto;
+    }
   }
 }
 

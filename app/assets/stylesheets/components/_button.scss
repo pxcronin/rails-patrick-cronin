@@ -1,0 +1,15 @@
+.contact-btn {
+  color: $brandblue;
+  border: $brandblue 2px solid;
+  border-radius: 16px;
+  font-weight: normal;
+  padding: 8px;
+  margin-left: 32px;
+}
+
+.contact-btn:hover {
+  background-color: $brandgold;
+  color: white;
+  border: $brandgold solid 2px;
+  transition: .3s;
+}
