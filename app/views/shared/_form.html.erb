@@ -1,6 +1,6 @@
 <%= simple_form_for @contact do |f| %>
-  <%= f.input :name %>
-  <%= f.input :email %>
-  <%= f.input :message %>
-  <%= f.button :submit %>
+  <%= f.input :name, input_html: { class: "form-styling" }, label_html: { class: "form-label-styling" } %>
+  <%= f.input :email, input_html: { class: "form-styling" }, label_html: { class: "form-label-styling" } %>
+  <%= f.input :message, input_html: { class: "form-styling" }, label_html: { class: "form-label-styling" } %>
+  <%= f.button :submit, value: "Send message", class: "form-btn-styling" %>
 <% end %>
