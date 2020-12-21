@@ -1,4 +1,4 @@
-// Graphical variables
+// Graphical variables (fonts, colors, etc.)
 @import "config/fonts";
 @import "config/colors";
 @import "config/bootstrap_variables";
@@ -7,7 +7,10 @@
 @import "bootstrap/scss/bootstrap";
 @import "font-awesome-sprockets";
 @import "font-awesome";
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
 
-// Your CSS partials
+// CSS partials
 @import "components/index";
 @import "pages/index";
+@import "config/texts";
