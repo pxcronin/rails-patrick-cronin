@@ -1,0 +1,17 @@
+.form-label-styling {
+  font-family: $body-font;
+}
+
+.form-btn-styling {
+  font-family: $body-font;
+  color: $brandblue;
+  border: $brandblue 2px solid;
+  border-radius: 16px;
+}
+
+.form-btn-styling:hover {
+  background-color: $brandgold;
+  color: white;
+  border: $brandgold solid 2px;
+  transition: .3s;
+}

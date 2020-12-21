@@ -4,18 +4,17 @@ html, body {
 }
 
 .content {
-  min-height: 100%;
+  min-height: calc(100% - 100px);
 }
 
 .content-inside {
-  padding: 0 0 50px 0;
+  padding: 0 0 24px 0;
+  margin: 0 0 24px 0;
 }
 
 .footer {
   display: flex;
   height: 50px;
-  margin-top: -50px;
-  margin-top: 24px;
   justify-content: center;
   background-color: $brandblue;
   color: #ffffff;
