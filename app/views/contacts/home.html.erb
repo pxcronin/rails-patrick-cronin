@@ -2,7 +2,7 @@
   <h1>Full-stack Developer, Product Director, Consultant</h1>
   <p>I find elegant solutions to complex problems.</p>
   <div class="flex-avatar-and-buttons">
-    <%= image_tag("pxc-portrait", class: "avatar-home") %>
+    <%= cl_image_tag("pxc-portrait", class: "avatar-home") %>
     <h2><%= button_to "Say Hello", { action: "new" }, method: "get", class: "contact-btn" %></h2>
   </div>
 </div>
