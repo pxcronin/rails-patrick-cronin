@@ -4,7 +4,6 @@
   border-radius: 16px;
   font-weight: normal;
   padding: 8px;
-  margin-left: 32px;
 }
 
 .contact-btn:hover {
@@ -12,4 +11,8 @@
   color: white;
   border: $brandgold solid 2px;
   transition: .3s;
+}
+
+.btn-item {
+  margin-left: 32px;
 }
