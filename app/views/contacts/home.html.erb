@@ -1,30 +1,34 @@
-<div class="intro">
-  <h1>Full-stack Developer, Product Director, Consultant</h1>
-  <div class="flex-avatar-and-buttons">
-    <%= cl_image_tag("pxc-portrait", class: "avatar-home") %>
-    <h2><%= button_to "Say Hello", { action: "new" }, method: "get", class: "contact-btn" %></h2>
+<div class="container">
+  <div class="intro text-center">
+    <h1>Full-stack Developer, Product Director, Consultant</h1>
+      <div class="d-md-flex justify-content-center align-items-center">
+      <div class="avatar-item my-2">
+        <%= cl_image_tag("pxc-portrait", class: "avatar-home") %>
+      </div>
+      <div class="btn-item my-2">
+        <h2><%= button_to "Say Hello", { action: "new" }, method: "get", class: "contact-btn" %></h2>
+      </div>
+      </div>
   </div>
 </div>
 
-<div class="details">
-  <div class="my-details">
-    <h2>Hi, I'm Patrick. Nice to meet you.</h2>
-    <p>Before becoming a developer, I worked for years as a a Project Director, Trainer, and the "most tech friendly non-tech person". As a developer, I buid powerful products that are easy to use.</p>
+<div class="row featurette purple-background h-50">
+  <div class="container-sm px-5 mt-5">
+    <div class="details text-center mx-5 px-5">
+      <h2>Hi, I'm Patrick. Nice to meet you.</h2>
+      <p>Before becoming a developer, I worked for years as a a Project Director, Trainer, and the "most tech friendly non-tech person". As a developer, I buid powerful products that are easy to use.</p>
+    </div>
   </div>
 </div>
 
-<div class="expertise">
-  <div class="item 1">
-    <div class="expertise-header">
+<div class="main-grid container-fluid px-5">
+  <div class="row">
+    <div class="expertise col-md text-center bg-light border rounded-3">
       <h1 class="expertise-icon"><i class="fas fa-laptop-code"></i></h1>
       <h2>Developer</h2>
       <p>I build custom and scalable solutions that meet your needs and are easy to manage.</p>
-    </div>
-    <div class="expertise-first-block">
       <p class="expertise-p">Languages I speak:</p>
       <p>Ruby, Javascript, React.JS, CSS</p>
-    </div>
-    <div class="expertise-final-block">
       <p class="expertise-p">Dev & Design Tools:</p>
       <ul>
         <li>Bootstrap</li>
@@ -33,18 +37,13 @@
         <li>Github</li>
       </ul>
     </div>
-  </div>
-  <div class="item 2">
-    <div class="expertise-header">
+
+    <div class="integration col-md text-center bg-light border rounded-3">
       <h1 class="expertise-icon"><i class="far fa-handshake"></i></h1>
       <h2>Integration</h2>
       <p>Building a great tool isn't enough - they must be adopted to be valuable.</p>
-    </div>
-    <div class="expertise-first-block">
       <p class="expertise-p">Keys to successful integrations:</p>
       <p>Needs assessment, communication of feedback and improvements, training, documentation.</p>
-    </div>
-    <div class="expertise-final-block">
       <p class="expertise-p">Integration Tools:</p>
       <ul>
         <li>Asana</li>
@@ -53,18 +52,13 @@
         <li>Google Meet, Teams, Zoom</li>
       </ul>
     </div>
-  </div>
-  <div class="item 3">
-    <div class="expertise-header">
+
+    <div class="consultant col-md text-center bg-light border rounded-3">
       <h1 class="expertise-icon"><i class="fas fa-user-friends"></i></h1>
       <h2>Consultant</h2>
-      <p>I can evaluate how you're using existing sytsems and tools and help better integrate them into your organization.</p>
-    </div>
-    <div class="expertise-first-block">
+      <p>I've worked with a variety of out-of-the-box systems and tools. I can evaluate how you're using them and help better integrate them into your organization.</p>
       <p class="expertise-p">Successful existing systems:</p>
       <p>Meet your current and near-future needs, are used widely by staff, have internal experts who can troubleshoot basic issues and train new staff.</p>
-    </div>
-    <div class="expertise-final-block">
       <p class="expertise-p">Systems & Tools:</p>
       <ul>
         <li>Adobe</li>
