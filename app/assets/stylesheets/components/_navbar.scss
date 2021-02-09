@@ -1,13 +1,8 @@
 .navbar {
-  background-color: rgba($color: #ffffff, $alpha: 0) !important;
+  background-color: #F4F4F4 !important;
 }
 
 .navbar-brand {
   color: $brandblue !important;
   font-family: $body-font;
-}
-
-.navbar-container {
-  display: flex;
-  justify-content: space-between;
 }
