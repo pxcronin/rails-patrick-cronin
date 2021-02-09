@@ -27,6 +27,8 @@
   border-radius: 50%;
 }
 
-.avatar-item {
-  margin-left: 32px;
+@include media-breakpoint-up(md) {
+  .avatar-home {
+    margin-left: 160px;
+  }
 }

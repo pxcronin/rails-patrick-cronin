@@ -1,7 +1,3 @@
-.flex-avatar-and-buttons{
-  // margin-left: 50%;
-}
-
 .expertise-icon {
   color: $brandgold;
 }
@@ -13,7 +9,7 @@
 
 .purple-background {
   background-color: #4056A1;
-  margin-bottom: -15%;
+  margin-bottom: 0;
 }
 
 .details {
@@ -22,6 +18,23 @@
 
 .main-grid {
   margin-bottom: 5%;
+}
+
+@include media-breakpoint-up(sm) {
+  .purple-background {
+    margin-bottom: -15%;
+  }
+  .main-grid {
+    margin-bottom: 4px;
+  }
+}
+
+@include media-breakpoint-down(sm) {
+  .details {
+    width: 75vw !important;
+    margin: auto !important;
+    padding: 0 !important;
+  }
 }
 
 .full-page {
