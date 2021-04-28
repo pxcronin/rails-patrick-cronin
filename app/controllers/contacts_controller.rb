@@ -1,4 +1,6 @@
 class ContactsController < ApplicationController
+  before_action :authenticate_user!, only: %i[inbox]
+
   def home
   end
 
@@ -16,6 +18,10 @@ class ContactsController < ApplicationController
   end
 
   def portfolio
+  end
+
+  def inbox
+    @contacts = Contact.all
   end
 
   private
