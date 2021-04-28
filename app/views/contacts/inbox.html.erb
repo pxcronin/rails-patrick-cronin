@@ -1,0 +1,5 @@
+<% @contacts.each do |contact| %>
+  <ol>
+    <li><%= contact.created_at %> - <%= contact.name %> - <%= contact.email %> - <%= contact.message %></li>
+  </ol>
+<% end %>
