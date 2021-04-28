@@ -1,0 +1,25 @@
+.portfolio-site {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  p {
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  a {
+    color: $brandblue;
+    text-decoration: none;
+  }
+  a:hover {
+    color: $brandgold;
+    transition: .3s;
+  }
+}
+
+@media only screen and (max-width: 630px) {
+  .portfolio-site {
+    p {
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+  }
+}

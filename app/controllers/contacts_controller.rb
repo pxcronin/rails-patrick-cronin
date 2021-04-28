@@ -15,6 +15,9 @@ class ContactsController < ApplicationController
     end
   end
 
+  def portfolio
+  end
+
   private
 
   def contact_params
